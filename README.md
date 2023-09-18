@@ -1,4 +1,4 @@
 # Angolano
 Eu sou um garoto em desenvolvimento web. aqui podes ver a minha evolução
-um exercício para para você que é um novato como eu  fazer quando já não tem nada para fazer.
+um exercício para para você que é um garoto como eu  fazer quando já não tem nada para fazer.
 
