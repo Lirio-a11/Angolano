@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Order summary card</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      box-sizing: border-box;
+    }
+    body{
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+      justify-content: center;
+      background-color: lightslategray;
+    }
+    .container{
+     display: grid;
+      background-color: white;
+      height: 90vh;
+      width: 69vh;
+      border-radius: 10px;
+      
+      
+    }
+    
+    
+    
+    .vibe{
+    width: 100%;
+    border-start-start-radius: 10px;
+    border-top-right-radius: 10px;
+      
+    }
+    .botao, .botao1{
+      margin: 20px
+      
+      
+      
+    }
+    .music{
+      background-color: rgba(11, 157, 214, 0.082);
+      margin: 30px;
+      border-radius: 20px;
+      display: flex;
+      border: none;
+      height: 70px;
+    }
+    .music img{
+      margin-left: 30px;
+      height: 50px;
+      margin-top: 10px;
+    }
+     .music h4{
+       margin-top: 10px;
+     }
+     .music p{
+      margin-top: 35px;
+      margin-left: -90px;
+     }
+
+     .music a{
+      margin-left: 150px;
+      margin-top: 10px;
+     }
+    .botao1{
+      color: white;
+      border: none;
+      border-radius: 19px;
+      background-color: rgb(9, 45, 243);
+      cursor: pointer;
+      padding: 15px;
+      margin-top: -15px;
+      box-shadow: 2px 2px 5px black;
+    }
+    .botao{
+      color: black; 
+      background-color: transparent;
+      margin-top: -15px;
+      border-radius: 19px;
+      border: none;
+      cursor: pointer;
+      padding: 15px;
+      
+    }
+    .letras {
+      margin-top: 20px;
+      text-align: center;
+    }
+   
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    
+      <img  class="vibe" src="./images/illustration-hero.svg" alt="">
+    
+    <div class="letras">
+      <h1>Order Summary</h1>
+      <p>Lorem ipsum, dolor sit <br> amet consectetur adipisicing elit. <br> Sapiente totam quae libero architecto voluptas
+        ration</p>
+    </div>
+    <div class="music">
+      <img src="./images/icon-music.svg" alt="">
+      <h4>Annual Plan</h4>
+      <p>$99.9/Year</p>
+      <a href="#">Change</a>
+    </div>
+
+     
+      
+        <button class="botao1">Proceed to Payment</button>
+       
+  
+      
+          <button  class="botao">Cancel Order</button>
+         
+    
+  </div>
+</body>
+
+</html>
